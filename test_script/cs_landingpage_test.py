@@ -6,7 +6,7 @@ from page_object.cs_landingpage_page import LandingPage
 class LandingPageTest(EnvironmentSetup):
 
     def test_verify_if_object_exists(self):
-        # Opens the webpage in Chrome
+        # call the method visit_page
         self.visit_page()
         # initialize landing page
         landingpage = LandingPage(self.driver)
@@ -16,7 +16,7 @@ class LandingPageTest(EnvironmentSetup):
         self.write_to_console("Mission Statement for Landing Page is Displayed")
 
     def test_open_close_durable_button(self):
-        # Opens the webpage in Chrome
+        # call the method visit_page
         self.visit_page()
         # initialize landing page
         landingpage = LandingPage(self.driver)
@@ -34,7 +34,7 @@ class LandingPageTest(EnvironmentSetup):
         self.write_to_console("Clicked on Durable Close Button")
 
     def visit_page(self):
-        # Opens the webpage in Chrome
+        # opens the webpage in Chrome
         self.driver.get("https://www.seecaesarstonequartz.com/")
         # wait time for page to load
         self.driver.set_page_load_timeout(20)
