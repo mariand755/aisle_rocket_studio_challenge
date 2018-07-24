@@ -28,7 +28,7 @@ This test suite covers Caeserstone Design & Gladiator Garage landing pages.
         - verify `python3 -version`
    3. Then `pip3 install virtualenv`
    4. Then `brew cask install chromedriver`
-   5. Ensure latest Chrome browser is install (if not)
+   5. Ensure latest Chrome browser is installed
 
 
 ## How to Run the Test Suite
