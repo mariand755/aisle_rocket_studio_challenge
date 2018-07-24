@@ -20,6 +20,17 @@ This test suite covers Caeserstone Design & Gladiator Garage landing pages.
          - Collapse Promotion Bar
 
 
+## How to Setup on Mac Operating System
+
+   1. To Install Homebrew, in terminal: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
+        - verify `brew doctor`
+   2. Then `brew install python3`  
+        - verify `python3 -version`
+   3. Then `pip3 install virtualenv`
+   4. Then `brew cask install chromedriver`
+   5. Ensure latest Chrome browser is install (if not)
+
+
 ## How to Run the Test Suite
 
    1. `cd` into project.
